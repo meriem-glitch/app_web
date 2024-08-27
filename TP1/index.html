@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Mes débuts avec la Programmation Web</title>
+    <link rel="stylesheet" href="C:\Users\DELL\source\repos\TP1\styles.css">
+</head>
+<body>
+
+    <div class="centered-links">
+        <form action="/ma-page-de-traitement" method="post">
+            <ol>
+                <li><a href="#s1">Informations Personnelles du Candidat</a></li>
+                <li><a href="#s2">Cursus de l'étudiant</a></li>
+                <li><a href="#s3">Langages de Programmation maîtrisés</a></li>
+                <li><a href="#s4">Exercice : Programme en C</a></li>
+                <li><a href="#s5">Mes Vacances en Images</a></li>
+            </ol>
+        </form>
+    </div>
+    <hr>
+    <section id="s1">
+        <form action="/ma-page-de-traitement" method="post">
+            <h2>Informations Personnelles du Candidat</h2>
+            <label for="nom"><strong>Nom:</strong>  <input type="text" id="nom" name="nom" placeholder="Entrer votre nom"><br></label><br>
+
+            <label for="prenom"><strong>Prénom:</strong><input type="text" id="prenom" name="prenom" placeholder="Entrer votre prenom"><br></label><br>
+
+            <label for="date_naissance"><strong>Date de naissance :</strong>   <input type="text" id="date_naissance" name="date_naissance" placeholder="Entrer votre date de naissance"><br></label><br>
+
+            <label for="adresse"><strong>Adresse :</strong>  <input type="text" id="adresse" name="adresse" placeholder="Entrer votre adresse"><br></label><br>
+
+            <label for="email"><strong>Adresse email :</strong>  <input type="text" id="email" name="email" placeholder="Entrer votre adresse email"><br></label><br>
+
+            <label for="telephone"><strong>Num Telephone :</strong>  <input type="text" id="telephone" name="telephone" placeholder="Entrer votre numero de telephone "><br></label><br>
+
+            <label for="situation"><strong>Situation Familiale :</strong>   <input type="text" id="situation" name="situation" placeholder="Entrer votre situation familiale"><br></label><br>
+
+        </form>
+        <hr>
+    </section>
+
+    <!-- Autres sections à ajouter ici -->
+    <section id="s2">
+        <!-- Début de la deuxième section -->
+
+        <form action="/ma-page-de-traitement" method="post">
+            <h2>Cursus de l'étudiant</h2>
+            <ul>
+                <li>
+                    <strong>1. Cycle Primaire</strong>
+                    <ul>
+                        <li><em>Ecole :</em> Hamedi ben Temar</li>
+
+                        <li><em>Année de première inscription :</em> 2010</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>2. Cycle Moyen</strong>
+                    <ul>
+                        <li><em>CEM :</em> Ibn Roched</li>
+                        <li><em>Année de première inscription :</em> 2015</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>3. Cycle Secondaire</strong>
+                    <ul>
+                        <li><em>Lycée :</em> Zoubida oueld kablia</li>
+                        <li><em>Année de première inscription :</em> 2019</li>
+                        <li><em>Bac :</em> Sciences de la Nature et de la Vie</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>4. Cycle Universitaire</strong>
+                    <ul>
+                        <li><em>Université :</em> USTHB</li>
+                        <li><em>Année de première inscription :</em> 2022</li>
+                    </ul>
+                </li>
+            </ul>
+        </form>
+        <hr>
+        <!-- Fin de la deuxième section -->
+    </section>
+    <section id="s3">
+        <form action="/ma-page-de-traitement" method="post">
+            <h2>Langages de Programmation maîtrisés</h2>
+            <li><strong><em>Langages de Programmation maîtrisés :</em> </strong></li>
+            <br>
+            <br>
+            <ul>
+                <label for="nom">
+                <li><strong> Langage C  </strong> <input type="checkbox"></li>
+                <br></label>
+                <br>
+                <label for="nom">
+                <li><strong> SQL  </strong> <input type="checkbox"></li>
+                <br></label>
+                <br>
+                <label for="nom">
+                <li><strong> JAVA  </strong> <input type="checkbox"></li>
+                <br></label>
+                <br>
+                <label for="nom">
+                <li><strong> JAVA SCRIPT </strong> <input type="checkbox"></li>
+                <br></label>
+                <br>
+                <label for="nom">
+                <li><strong>  PYTHON    </strong> <input type="checkbox"></li>
+                <br></label>
+                <br>
+                <label for="nom">
+                <li><strong> PHP  </strong> <input type="checkbox"></li>
+                <br></label>
+                <br>
+            </ul>
+        </form>
+        <hr>
+    </section>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+
+    <section id="s4">
+        <form action="/ma-page-de-traitement" method="post">
+            <h2>Exercice : Programme en C</h2>
+            <p class="csc">
+                Voici un exemple de programme en langage C pour remplir une matrice et calculer la somme de ses éléments positifs :
+            </p>
+            <pre>
+            <code class="hljs language-c">
+#include &lt;stdio.h&gt;
+
+int main() {
+  int matrix[3][3];
+  int sum = 0;
+
+   // Remplissage de la matrice
+  printf("Entrez les éléments de la matrice (3x3):\n");
+  for (int i = 0; i < 3; i++) {
+  for (int j = 0; j < 3; j++) {
+   printf("Element [%d][%d]: ", i, j);
+   scanf("%d", &matrix[i][j]);
+        }
+    }
+
+  // Calcul de la somme des éléments positifs
+  for (int i = 0; i < 3; i++) {
+  for (int j = 0; j < 3; j++) {
+  if (matrix[i][j] > 0) {
+     sum += matrix[i][j];
+            }
+        }
+    }
+
+ // Affichage de la somme
+ printf("La somme des éléments positifs de la matrice
+              est : %d\n", sum);
+
+    return 0;
+}
+            </code>
+        </pre>
+        </form>
+        <hr>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+
+    <section>
+        <form action="/ma-page-de-traitement" method="post">
+            <p>Le code d’une page web doit être mis entre les deux balises <code>&lt;HTML&gt;</code> et <code>&lt;/HTML&gt;</code> et il peut contenir du texte ou des formules mathématiques telle que : πi = α(X<sub>1</sub> + Y<sub>2</sub>)<sup>k+1</sup> / λi</p>
+
+        </form>
+        </section>
+            <hr>
+            <section id="s5">
+                <form action="/ma-page-de-traitement" method="post">
+                    <h2>Vacances en Images</h2>
+                    <ul class="country-list">
+                        <li>
+                            <a href="Vacances.html#Italie">
+                                <span>Italie</span>
+
+                                <img src="images/image1.jpg" alt="Italie" width="50" height="50">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Vacances.html#Australie">
+                                <span>Australie</span>
+                                <img src="images/image2.jpg" alt="Australie" width="50" height="50">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Vacances.html#Canada">
+                                <span>Canada</span>
+                                <img src="images/image3.jpg" alt="Canada" width="50" height="50">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Vacances.html#Japon">
+                                <span>Japon</span>
+                                <img src="images/image4.jpg" alt="Japon" width="50" height="50">
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+                <hr>
+            </section>
+
+            <footer>
+            </footer>
+
+            <!-- Scripts JavaScript -->
+            <div id="hautDePage">
+                <a href="#">HAUT DE PAGE</a>
+            </div>
+            <script>
+
+                document.getElementById('hautDePage').addEventListener('click', function () {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            </script>
+
+</body>
+</html>

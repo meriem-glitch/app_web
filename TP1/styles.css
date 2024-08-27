@@ -1,0 +1,199 @@
+/* Ajustement de la mise en page et de la typographie */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: black;
+	background-image: url('images/fond.PNG');
+	background-size: cover; /* Couvre toute la surface de l'élément */
+	background-repeat: no-repeat;
+	background-attachment: fixed; /* Fixe l'image de fond lors du défilement */
+
+
+
+}
+
+/* Améliorer les styles de section */
+section {
+	width: 100%;
+	min-height: 100vh; /* Au moins la hauteur de la fenêtre visible */
+	box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur et la hauteur */
+	padding: 20px;
+	display: flex; /* Utiliser une disposition en ligne */
+	flex-direction: column; /* Disposition verticale des éléments enfants */
+	justify-content: center; /* Centrer verticalement le contenu */
+	align-items: center; /* Centrer horizontalement le contenu */
+	margin-bottom: 20px; /* Ajouter une marge en bas pour séparer les sections */
+}
+
+/* Ajouter des bordures et des ombres aux images */
+img {
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Personnaliser les formulaires */
+form {
+	width: 80%;
+	max-width: 600px; /* Largeur maximale du formulaire */
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #FFFDF4;
+	margin-bottom: 20px; /* Ajouter une marge en bas pour séparer les formulaires */
+}
+
+/* Styles pour les boutons */
+.button {
+	padding: 10px 20px;
+	background-color: #800080;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+	.button:hover {
+		background-color: #993399;
+	}
+
+/* Styles pour les listes */
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+
+/* Espacement pour le paragraphe */
+p {
+	text-align: center; /* Centrer le texte horizontalement */
+	margin-bottom: 20px; /* Ajouter une marge en bas pour séparer les paragraphes */
+}
+p, li, a {
+	margin: 0;
+	padding: 0;
+}
+
+.csc {
+	color: red;
+}
+
+#hautDePage {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 50px;
+	cursor: pointer;
+}
+#menuSection {
+	position: fixed;
+	top: 100px;
+	left: 20px;
+	background-color: #f0f0f0; /* Couleur de fond du menu */
+	padding: 10px;
+	border-radius: 5px;
+}
+
+	#menuSection a {
+		display: block;
+		margin-bottom: 5px;
+		text-decoration: none;
+		color: #000; /* Couleur des liens du menu */
+	}
+/* Ajouter des bordures et des ombres aux images */
+img {
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+	.image-container img {
+		width: 300px;
+		display: block;
+		margin: 0 auto;
+	}
+
+.country-list img {
+	float: right; /* Alignement à droite */
+	margin-left: 10px; /* Espacement entre le texte et l'image */
+}
+.country-list {
+	list-style: none;
+	padding: 0;
+}
+
+	.country-list li {
+		display: flex; /* Utiliser une disposition en ligne */
+		align-items: center; /* Aligner verticalement */
+		margin-bottom: 10px;
+	}
+
+	.country-list span {
+		margin-right: 10px; /* Espacement entre le texte et l'image */
+	}
+.centered-links ol {
+	display: block;
+	margin-top: 20px; /* Ajoutez un espace en haut de la liste */
+}
+
+	.centered-links ol li {
+		display: block;
+		margin-bottom: 10px; /* Ajoutez un espace entre chaque élément de la liste */
+	}
+.centered-links ol {
+	display: block;
+	margin-top: 20px; /* Ajoutez un espace en haut de la liste */
+}
+
+	.centered-links ol li {
+		display: block;
+		margin-bottom: 10px; /* Ajoutez un espace entre chaque élément de la liste */
+	}
+/* Personnaliser la coloration syntaxique */
+.code-c {
+	background-color: #f7f7f7;
+	padding: 10px;
+	border-radius: 5px;
+	overflow-x: auto;
+}
+
+	.code-c .keyword {
+		color: blue;
+	}
+
+	.code-c .string {
+		color: green;
+	}
+
+	.code-c .comment {
+		color: gray;
+	}
+.centered-links {
+	display: flex; /* Utiliser une disposition en ligne */
+	justify-content: center; /* Centrer horizontalement */
+	align-items: center; /* Centrer verticalement */
+	min-height: 100vh; /* Au moins la hauteur de la fenêtre visible */
+	margin-top: 20px; /* Ajouter un espace en haut de la liste */
+}
+
+	.centered-links form {
+		width: 80%; /* Largeur du formulaire */
+		max-width: 600px; /* Largeur maximale du formulaire */
+		padding: 20px;
+		border: 1px solid #ccc;
+		border-radius: 10px;
+		background-color: #f9f9f9;
+		margin-bottom: 20px; /* Ajouter une marge en bas pour séparer les formulaires */
+	}
+
+#hautDePage a {
+	color: #FFFDF4; /* Choisissez la couleur que vous préférez */
+}
+section h2 {
+	text-align: center;
+}
+

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\monprogrammep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C4CCF04-3A7B-4085-B77E-238BE9CCF0D6}|monprogrammep\\monprogrammep.pyproj|C:\\Users\\DELL\\source\\repos\\monprogrammep\\monprogrammep\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0C4CCF04-3A7B-4085-B77E-238BE9CCF0D6}|monprogrammep\\monprogrammep.pyproj|solutionrelative:monprogrammep\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C4CCF04-3A7B-4085-B77E-238BE9CCF0D6}|monprogrammep\\monprogrammep.pyproj|C:\\Users\\DELL\\source\\repos\\monprogrammep\\monprogrammep\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0C4CCF04-3A7B-4085-B77E-238BE9CCF0D6}|monprogrammep\\monprogrammep.pyproj|solutionrelative:monprogrammep\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C4CCF04-3A7B-4085-B77E-238BE9CCF0D6}|monprogrammep\\monprogrammep.pyproj|C:\\Users\\DELL\\source\\repos\\monprogrammep\\monprogrammep\\monprogrammep.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0C4CCF04-3A7B-4085-B77E-238BE9CCF0D6}|monprogrammep\\monprogrammep.pyproj|solutionrelative:monprogrammep\\monprogrammep.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\monprogrammep\\monprogrammep\\main.js",
+              "RelativeDocumentMoniker": "monprogrammep\\main.js",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\monprogrammep\\monprogrammep\\main.js",
+              "RelativeToolTip": "monprogrammep\\main.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-11T19:36:53.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\monprogrammep\\monprogrammep\\style.css",
+              "RelativeDocumentMoniker": "monprogrammep\\style.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\monprogrammep\\monprogrammep\\style.css",
+              "RelativeToolTip": "monprogrammep\\style.css",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-11T19:36:10.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "monprogrammep.py",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\monprogrammep\\monprogrammep\\monprogrammep.py",
+              "RelativeDocumentMoniker": "monprogrammep\\monprogrammep.py",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\monprogrammep\\monprogrammep\\monprogrammep.py",
+              "RelativeToolTip": "monprogrammep\\monprogrammep.py",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-11T19:31:28.895Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

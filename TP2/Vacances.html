@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacances en Images</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url('images/fond.jpg');
+        }
+        table.outer {
+            border: 3px solid orange;
+            background-color: white;
+            margin: auto; /* Centrer le cadre sur la page */
+            padding: 20px; /* Ajoute un espacement à l'intérieur du cadre */
+        }
+        table.inner {
+            border: 2px solid black;
+            background-color: silver;
+            margin: auto; /* Centrer le cadre sur la page */
+            margin-bottom: 20px; /* Ajoute un espacement entre les tableaux imbriqués */
+            width: 70%; /* Ajuster la largeur des tableaux internes */
+        }
+        .image-container {
+            display: flex;
+            align-items: center; /* Aligner verticalement les éléments */
+            justify-content: center; /* Aligner horizontalement les éléments */
+        }
+        .image-cell img {
+            max-width: 100%; /* Ajuster la taille maximale de l'image */
+            height: auto; /* Garder le rapport hauteur/largeur */
+        }
+        .description {
+            font-style: italic;
+            color: #666; /* Couleur du texte de la description */
+            text-align: left; /* Alignement du texte à gauche */
+            padding: 20px; /* Ajoute un espacement autour du texte */
+        }
+        .odd-row .image-cell {
+            order: 2; /* Inverser l'ordre de la cellule d'image */
+        }
+        .even-row .description {
+            order: 1; /* Inverser l'ordre de la cellule de description */
+        }
+    </style>
+</head>
+<body>
+    <table class="outer">
+        <tr>
+            <td>
+                <h1>Vacances en Images</h1>
+                <table class="inner">
+                    <tr class="odd-row">
+                        <td class="image-cell">
+                            <div class="image-container">
+                                <img src="Images/image1.jpg" alt="Italie">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="description">
+                                <p> Italie...</p>
+                                <p>Un pays riche en histoire, en culture et en beauté naturelle. Des villes emblématiques comme Rome, Florence et Venise...</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="inner">
+                    <tr class="even-row">
+                        <td>
+                            <div class="description">
+                                <p>L'Australie...</p>
+                                <p>Un vaste pays aux paysages diversifiés, des plages dorées, des déserts rouges, des forêts tropicales et des villes dynamiques comme Sydney et Melbourne...</p>
+                            </div>
+                        </td>
+                        <td class="image-cell">
+                            <div class="image-container">
+                                <img src="Images/image2.jpg" alt="Australie">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="inner">
+                    <tr class="odd-row">
+                        <td class="image-cell">
+                            <div class="image-container">
+                                <img src="Images/image3.jpg" alt="Canada">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="description">
+                                <p>Le Canada...</p>
+                                <p>Un pays d'une beauté époustouflante, avec ses montagnes majestueuses, ses lacs cristallins et ses vastes étendues sauvages. Les villes cosmopolites comme Toronto, Vancouver et Montréal...</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="inner">
+                    <tr class="even-row">
+                        <td>
+                            <div class="description">
+                                <p>Le Japon...</p>
+                                <p>Un mélange fascinant de tradition et de modernité. Des temples anciens, des jardins zen, des villes ultramodernes comme Tokyo et Kyoto...</p>
+                            </div>
+                        </td>
+                        <td class="image-cell">
+                            <div class="image-container">
+                                <img src="Images/image4.jpg" alt="Japon">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <p><a href="index.html">Retour</a></p>
+    <!-- Lien pour retourner à la page index.htm -->
+</body>
+</html>

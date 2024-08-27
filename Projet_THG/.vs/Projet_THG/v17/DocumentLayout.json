@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Projet_THG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0BF92E0-F07D-4999-8C30-1A00CFD36DC8}|Projet_THG\\Projet_THG.pyproj|C:\\Users\\DELL\\source\\repos\\Projet_THG\\Projet_THG\\Projet_THG.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E0BF92E0-F07D-4999-8C30-1A00CFD36DC8}|Projet_THG\\Projet_THG.pyproj|solutionrelative:Projet_THG\\Projet_THG.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Projet_THG.py",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Projet_THG\\Projet_THG\\Projet_THG.py",
+              "RelativeDocumentMoniker": "Projet_THG\\Projet_THG.py",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Projet_THG\\Projet_THG\\Projet_THG.py*",
+              "RelativeToolTip": "Projet_THG\\Projet_THG.py*",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAEgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-05T15:28:32.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

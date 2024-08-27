@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche de voeux</title>
+    <style>
+  /* Utilisation de Flexbox pour la mise en page */
+/* Utilisation de Flexbox pour la mise en page */
+        body {
+            font-family: Arial, sans-serif;
+            color: navy;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Style du conteneur du formulaire */
+        .form-container {
+            width: 80%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border: 3px solid navy;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: orange;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* Espacement entre les éléments */
+        label,
+        input,
+        textarea,
+        select {
+            margin-bottom: 15px;
+        }
+
+        /* Style des boutons */
+        input[type="submit"],
+        input[type="reset"] {
+            width: 45%;
+            padding: 10px 20px;
+            background-color: navy;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #001f3f;
+        }
+
+        /* Style des labels */
+label {
+    font-weight: bold;
+}
+
+/* Style des champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+textarea,
+select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Style des boutons */
+input[type="submit"],
+input[type="reset"] {
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #001f3f;
+}
+
+/* Style des messages d'erreur */
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+/* Style des options de sélection */
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h1>Fiche de voeux</h1>
+
+<table class="outer">
+    <tr>
+        <td>
+            <form action="reponse.php" method="post" enctype="multipart/form-data">
+                <table class="inner">
+                    <tr>
+                        <td><label for="nom">Nom</label></td>
+                        <td class="separator">:</td>
+                        <td><input type="text" id="nom" name="nom" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="prenom">Prenom</label></td>
+                        <td class="separator">:</td>
+                        <td><input type="text" id="prenom" name="prenom" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date_naissance">Date de naissance</label></td>
+                        <td class="separator">:</td>
+                        <td><input type="date" id="date_naissance" name="date_naissance" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telephone">Num de telephone</label></td>
+                        <td class="separator">:</td>
+                        <td><input type="tel" id="telephone" name="telephone" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="adresse">Adresse</label></td>
+                        <td class="separator">:</td>
+                        <td><textarea id="adresse" name="adresse" rows="4" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Genre</label></td>
+                        <td class="separator">:</td>
+                        <td>
+                            <label><input type="radio" name="genre" value="masculin"> Masculin</label>
+                            <label><input type="radio" name="genre" value="feminin"> Feminin</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Civilite</label></td>
+                        <td class="separator">:</td>
+                        <td>
+                            <label><input type="radio" name="civilite" value="celibataire" checked> Celibataire</label>
+                            <label><input type="radio" name="civilite" value="marie"> Marie</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="domaine">Domaine d'etudes</label></td>
+                        <td class="separator">:</td>
+                        <td>
+                            <select id="domaine" name="domaine">
+                                <option value="">Choisir...</option>
+                                <option value="informatique">Informatique</option>
+                                <option value="medecine">Médecine</option>
+                                <option value="sciences_juridiques">Sciences Juridiques</option>
+                                <option value="ingenierie">Ingénierie</option>
+                                <option value="economie">Économie</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Langues souhaitees a l'universite</label></td>
+                        <td class="separator">:</td>
+                        <td>
+                            <label><input type="checkbox" name="langue[]" value="francais" checked> Francais</label>
+                            <label><input type="checkbox" name="langue[]" value="anglais"> Anglais</label>
+                            <label><input type="checkbox" name="langue[]" value="arabe"> Arabe</label>
+                            <label><input type="checkbox" name="langue[]" value="aucune_preference"> Aucune Preference</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="motivation">Lettre de motivation</label></td>
+                        <td class="separator">:</td>
+                        <td><input type="file" id="motivation" name="motivation"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align: center;">
+                            <input type="submit" value="Envoyer">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="reset" value="Annuler">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
